@@ -217,13 +217,14 @@ input[type=email], input[type=password]{
 /*inicio de footer*/
 
 .footer{
+    margin: 20px 0;
     background-color: whitesmoke;
     display: flex;
     justify-content: space-around;
 }
 
 .footer ul li{
-    padding: 20px;
+    padding: 10px;
     list-style-type:none;
     display: flex;
     justify-content: center;
@@ -231,12 +232,12 @@ input[type=email], input[type=password]{
 .footer ul li a{
     text-decoration: none;
     color: black;
-    font-size:160%;
+    font-size:20px;
 }
 
 .footer_li_item1{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 /*fin del footer*/
 
