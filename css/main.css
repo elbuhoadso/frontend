@@ -8,6 +8,24 @@
     --color1: #00bbff;
     --color2: #000294;
 }
+nav{
+    background-color: rgb(117, 243, 170);
+    display: flex;
+    justify-content: space-between;  
+    padding: 10px 0; 
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+
+img{
+    width: 60px;
+    position: absolute;
+    margin-top: -20px;   
+}
 
 .main__blog{
     display: flex;
@@ -202,3 +220,4 @@ input[type=email], input[type=password]{
     margin-bottom: 20px;
 }
 /*fin del footer*/
+
