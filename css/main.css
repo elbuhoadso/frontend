@@ -11,20 +11,21 @@
 nav{
     background-color: rgb(117, 243, 170);
     display: flex;
-    justify-content: space-between;  
-    padding: 10px 0; 
+    justify-content: space-between;
+    align-items: center; 
 }
 
 nav ul{
     display: flex;
     gap: 30px;
 }
-
+nav h1{
+    width: 100%;
+    text-align: center;
+}
 
 img{
-    width: 60px;
-    position: absolute;
-    margin-top: -20px;   
+    max-width: 50px;   
 }
 
 .main__blog{
