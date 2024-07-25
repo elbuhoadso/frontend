@@ -30,3 +30,90 @@
     height: 100px;
     background-color: var(--color2);
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* LOGIN */
+
+:root{
+    --botones: #8383ff;
+    --botones-hover: #6e6efc;
+    --border: #000;
+    --form: #a5a5a5;
+}
+.divisiones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+.divisiones :nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 400px;
+    height: 500px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background: var(--form);
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: rgb(116, 116, 116);
+}
+.imagen{
+    display: flex;
+    justify-content: flex-end;
+}
+img{
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+}
+input[type=email], input[type=password]{
+    height: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px;
+    padding: 10px;
+}
+.rect{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.rectangulo{
+    height: 400px;
+    width: 150px;
+    border: 1px solid var(--border);
+}
+.botones{
+    display: flex;
+}
+.botones > input{
+    height: 40px;
+    border-radius: 10px;
+    border: 1px;
+    width: 80px;
+    margin: 10px;
+    background: var(--botones);
+    transition: .2s;
+}
+.botones > input:hover{
+    background: var(--botones-hover);
+    transition: .2s;
+}
