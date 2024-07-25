@@ -177,3 +177,28 @@ input[type=email], input[type=password]{
     width: 16%;
     
 }
+/*inicio de footer*/
+
+.footer{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul li{
+    padding: 20px;
+    list-style-type:none;
+    display: flex;
+    justify-content: center;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: deepskyblue;
+    font-size:160%;
+}
+
+.footer_li_item1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*fin del footer*/
