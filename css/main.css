@@ -5,8 +5,28 @@
 }
 
 :root{
-    --color1: #f2f2f2;
-    --color2: #000000;
-    --color3: #ffffff;
-    --color4: #ff0000;
+    --color1: #00bbff;
+    --color2: #000294;
+}
+
+.main__blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.blog__box{
+    background-color: var(--color2);
+    display: flex;
+}
+
+.blog__img{
+    background-color: var(--color1);
+    width: 100px;
+}
+.blog__txt{
+    width: 400px;
+    height: 100px;
+    background-color: var(--color2);
 }
