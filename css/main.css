@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* LOGIN */
+
+.divisiones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+.divisiones :nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.imagen{
+    display: flex;
+    justify-content: flex-end
+}
+img{
+    width: 250px;
+    height: 150px;
+}
+input{
+    height: 40px;
+    margin: 10px;
+}
+.rect{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.rectangulo{
+    height: 400px;
+    width: 150px;
+    border: 1px solid black;
+}
+.botones{
+    display: flex;
+}
+.botones > input{
+    margin: 10px;
+}
