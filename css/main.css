@@ -31,12 +31,62 @@
     background-color: var(--color2);
 }
 
-body{
+/* inicio home */
+.home-main{
+    display: flex;
+    height: 70vh;
+    width: 100vw;
+    flex-direction: column;
+
+}
+
+.home-main__home-content{
+    display: flex;
+    outline: 3px solid black;
+    height: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home-main__home-content--first{
+    justify-content: center;
+}
+
+
+
+.home-content__left{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.fa-arrow-left{
+    font-size: 60px;
+}
+
+.home-content__img{
+    height: 100%;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-image{
+    font-size: 180px;
+}
+
+.home-content__right{
+    height: 100%;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 /* LOGIN */
 
@@ -116,4 +166,14 @@ input[type=email], input[type=password]{
 .botones > input:hover{
     background: var(--botones-hover);
     transition: .2s;
+}
+.fa-arrow-right{
+    font-size: 60px;
+}
+
+.home-content__cajas{
+    background-color: rebeccapurple;
+    height: 70%;
+    width: 16%;
+    
 }
