@@ -82,7 +82,6 @@ img{
 .home-main{
     display: flex;
     height: 70vh;
-    width: 100vw;
     flex-direction: column;
 
 }
