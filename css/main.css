@@ -32,23 +32,29 @@ body{
 form{
     display: flex;
     flex-direction: column;
+    background: rgb(165, 165, 165);
 }
 .logo{
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    background: rgb(116, 116, 116);
 }
 .imagen{
     display: flex;
-    justify-content: flex-end
+    justify-content: flex-end;
 }
 img{
     width: 250px;
     height: 150px;
+    border-radius: 20px;
 }
-input{
-    height: 40px;
+input[type=email], input[type=password]{
+    height: 20px;
     margin: 10px;
+    border-radius: 10px;
+    border: 1px;
+    padding: 10px;
 }
 .rect{
     display: flex;
@@ -64,5 +70,15 @@ input{
     display: flex;
 }
 .botones > input{
+    height: 40px;
+    border-radius: 10px;
+    border: 1px;
+    width: 80px;
     margin: 10px;
+    background: rgb(131, 131, 255);
+    transition: .2s;
+}
+.botones > input:hover{
+    background: rgb(91, 91, 255);
+    transition: .2s;
 }
